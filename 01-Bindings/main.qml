@@ -49,7 +49,6 @@ Window {
 
         // Button
         Rectangle {
-            // NEW //
             width: buttonText.width + 20
             height: 50
             color: "lightgray"
@@ -57,8 +56,12 @@ Window {
             border.color: "darkgray"
             anchors.centerIn: parent
 
+            // NEW //
+            Behavior on width {
+                PropertyAnimation { duration: 200 }
+            }
+
             Text {
-                // NEW //
                 id: buttonText
                 text: "Toller " + textInput.text
                 color: "violet"
