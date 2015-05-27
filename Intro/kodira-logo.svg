@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="100"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="kodira-logo.svg"
+   inkscape:export-filename="header.png"
+   inkscape:export-xdpi="270"
+   inkscape:export-ydpi="270">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3757">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop3759" />
+      <stop
+         id="stop3765"
+         offset="1"
+         style="stop-color:#7fc200;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3757"
+       id="linearGradient3763"
+       x1="4.2914176"
+       y1="1014.8151"
+       x2="338.65924"
+       y2="1014.8151"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(14,-5)" />
+    <filter
+       id="filter3791"
+       inkscape:menu-tooltip="Draws a black outline around"
+       inkscape:menu="ABCs"
+       inkscape:label="Drop shadow"
+       width="1.5"
+       height="1.5"
+       x="-0.25"
+       y="-0.25"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3793"
+         stdDeviation="2"
+         in="SourceAlpha"
+         result="result0" />
+      <feComposite
+         id="feComposite3795"
+         in2="result0"
+         result="result3"
+         operator="arithmetic"
+         in="SourceGraphic"
+         k2="1"
+         k3="10"
+         k1="0"
+         k4="0" />
+      <feComposite
+         id="feComposite3797"
+         in2="result3"
+         operator="in"
+         in="result3"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix3827" />
+      <feGaussianBlur
+         id="feGaussianBlur3829"
+         in="fbSourceGraphicAlpha"
+         stdDeviation="4"
+         result="blur" />
+      <feColorMatrix
+         id="feColorMatrix3831"
+         result="bluralpha"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.6 0 " />
+      <feOffset
+         id="feOffset3833"
+         in="bluralpha"
+         dx="2"
+         dy="2"
+         result="offsetBlur" />
+      <feMerge
+         id="feMerge3835">
+        <feMergeNode
+           id="feMergeNode3837"
+           in="offsetBlur" />
+        <feMergeNode
+           id="feMergeNode3839"
+           in="fbSourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter
+       id="filter4203"
+       inkscape:label="Emboss"
+       inkscape:menu-tooltip="Emboss effect : Colors of the original images are preserved or modified by Blend"
+       inkscape:menu="Bumps"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         id="feColorMatrix4205"
+         result="result2"
+         type="luminanceToAlpha" />
+      <feDiffuseLighting
+         id="feDiffuseLighting4207"
+         diffuseConstant="0.60000002"
+         result="result1"
+         surfaceScale="-10">
+        <feDistantLight
+           id="feDistantLight4209"
+           azimuth="225"
+           elevation="35" />
+      </feDiffuseLighting>
+      <feComposite
+         id="feComposite4211"
+         in2="SourceGraphic"
+         result="result3"
+         k3="0.5"
+         k1="1.5"
+         in="result1"
+         operator="arithmetic"
+         k2="0"
+         k4="0" />
+      <feComposite
+         id="feComposite4213"
+         in2="result3"
+         result="result5"
+         operator="in"
+         in="result3" />
+      <feBlend
+         id="feBlend4215"
+         in2="result1"
+         result="result6"
+         mode="normal"
+         in="result5" />
+      <feComposite
+         id="feComposite4217"
+         in2="result6"
+         result="result7"
+         operator="arithmetic"
+         k2="1"
+         k1="0"
+         k3="0"
+         k4="0" />
+      <feComposite
+         id="feComposite4219"
+         in2="SourceGraphic"
+         in="result7"
+         operator="in" />
+    </filter>
+    <filter
+       id="filter4472"
+       inkscape:label="Emboss"
+       inkscape:menu-tooltip="Emboss effect : Colors of the original images are preserved or modified by Blend"
+       inkscape:menu="Bumps"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         id="feColorMatrix4474"
+         result="result2"
+         type="luminanceToAlpha" />
+      <feDiffuseLighting
+         id="feDiffuseLighting4476"
+         diffuseConstant="0.60000002"
+         result="result1"
+         surfaceScale="-10">
+        <feDistantLight
+           id="feDistantLight4478"
+           azimuth="225"
+           elevation="35" />
+      </feDiffuseLighting>
+      <feComposite
+         id="feComposite4480"
+         in2="SourceGraphic"
+         result="result3"
+         k3="0.5"
+         k1="1.5"
+         in="result1"
+         operator="arithmetic"
+         k2="0"
+         k4="0" />
+      <feComposite
+         id="feComposite4482"
+         in2="result3"
+         result="result5"
+         operator="in"
+         in="result3" />
+      <feBlend
+         id="feBlend4484"
+         in2="result1"
+         result="result6"
+         mode="normal"
+         in="result5" />
+      <feComposite
+         id="feComposite4486"
+         in2="result6"
+         result="result7"
+         operator="arithmetic"
+         k2="1"
+         k1="0"
+         k3="0"
+         k4="0" />
+      <feComposite
+         id="feComposite4488"
+         in2="SourceGraphic"
+         in="result7"
+         operator="in" />
+    </filter>
+    <filter
+       id="filter4472-1"
+       inkscape:label="Emboss"
+       inkscape:menu-tooltip="Emboss effect : Colors of the original images are preserved or modified by Blend"
+       inkscape:menu="Bumps"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         id="feColorMatrix4474-7"
+         result="result2"
+         type="luminanceToAlpha" />
+      <feDiffuseLighting
+         id="feDiffuseLighting4476-4"
+         diffuseConstant="0.60000002"
+         result="result1"
+         surfaceScale="-10">
+        <feDistantLight
+           id="feDistantLight4478-0"
+           azimuth="225"
+           elevation="35" />
+      </feDiffuseLighting>
+      <feComposite
+         k4="0"
+         k2="0"
+         id="feComposite4480-9"
+         in2="SourceGraphic"
+         result="result3"
+         k3="0.5"
+         k1="1.5"
+         in="result1"
+         operator="arithmetic" />
+      <feComposite
+         id="feComposite4482-4"
+         in2="result3"
+         result="result5"
+         operator="in"
+         in="result3" />
+      <feBlend
+         id="feBlend4484-8"
+         in2="result1"
+         result="result6"
+         mode="normal"
+         in="result5" />
+      <feComposite
+         k4="0"
+         k3="0"
+         k1="0"
+         id="feComposite4486-8"
+         in2="result6"
+         result="result7"
+         operator="arithmetic"
+         k2="1" />
+      <feComposite
+         id="feComposite4488-2"
+         in2="SourceGraphic"
+         in="result7"
+         operator="in" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="4.0957448"
+     inkscape:cx="101.34186"
+     inkscape:cy="34.859936"
+     inkscape:document-units="px"
+     inkscape:current-layer="g3146"
+     showgrid="false"
+     inkscape:window-width="2560"
+     inkscape:window-height="1374"
+     inkscape:window-x="1920"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     height="1052.36px"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-952.36168)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:18px;line-height:125%;font-family:'Lobster 1.3';-inkscape-font-specification:'Lobster 1.3';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="112.37947"
+       y="23.027906"
+       id="text3016"
+       sodipodi:linespacing="125%"
+       transform="translate(0,982.36218)"><tspan
+         sodipodi:role="line"
+         id="tspan3018"
+         x="112.37947"
+         y="23.027906" /></text>
+    <g
+       id="g3146"
+       transform="matrix(0.2946927,0,0,0.2946927,140.45311,830.01889)"
+       inkscape:export-filename="/home/conny/tmp/logo_white.png"
+       inkscape:export-xdpi="600"
+       inkscape:export-ydpi="600">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m -334.42902,423.57263 c -15.16588,0.5785 -29.7788,8.5871 -38.41564,22.50917 l -86.58525,139.55676 c -13.81892,22.27532 -6.96903,51.45776 15.30623,65.27682 l 57.4734,35.71454 41.71697,-195.52979 c -14.2655,6.01339 -25.33362,15.08529 -33.16349,27.01095 -7.82993,11.92613 -11.89766,26.40354 -12.00489,43.51771 0.16758,7.91074 0.99732,13.2947 2.25092,16.05677 1.2536,2.76161 2.07247,4.6992 2.40097,5.85215 -11.14826,0.14886 -19.78131,-2.14311 -25.66044,-6.90281 -5.87913,-4.7597 -8.80665,-12.87308 -8.8536,-24.30989 0.39904,-14.50576 6.24619,-28.18172 17.40708,-40.81663 11.1609,-12.63451 25.18553,-22.8827 42.31722,-30.76247 17.1316,-7.87939 34.96006,-11.91437 53.27169,-12.15494 4.45117,0.0538 8.77567,0.22521 12.90526,0.60024 l -21.30868,98.59033 c 7.2876,-9.82048 16.66207,-22.33198 28.06142,-37.51528 11.39913,-15.1833 21.61557,-28.85831 30.76253,-40.96687 8.7348,-11.56291 13.07855,-17.09309 13.95569,-18.15739 l -64.97647,-40.36643 c -8.35324,-5.18213 -17.76136,-7.55007 -26.86092,-7.20294 z m 113.74629,61.07487 -77.28146,88.83635 c 2.09145,-0.30732 4.07168,-0.53349 6.00245,-0.60024 1.93053,-0.0672 3.78236,0 5.55227,0 15.3178,0.20648 25.87744,3.54193 31.66288,9.90404 5.78516,6.36163 8.54148,14.43803 8.25336,24.45971 -0.65714,13.66876 -3.35464,28.07127 -7.95323,43.06777 -4.59888,14.99603 -7.14638,27.80333 -7.80319,38.41564 0.0384,4.92681 1.089,9.21399 3.30135,13.05508 2.21208,3.84109 5.25204,6.55467 9.15373,8.10329 -6.7575,1.91743 -12.69815,3.33017 -18.00733,4.20172 -5.30948,0.87155 -9.94442,1.36375 -13.80562,1.35079 -10.19643,-0.2353 -17.00963,-2.45572 -20.40831,-6.75299 -3.39888,-4.29727 -4.9134,-9.31195 -4.65189,-14.8558 0.71049,-11.2894 3.57922,-25.00139 8.55348,-41.11674 4.97406,-16.11585 7.84279,-30.62016 8.55348,-43.51773 0.10036,-6.52969 -1.43578,-11.73165 -4.35177,-15.60634 -2.91623,-3.87471 -7.86676,-5.75851 -15.00611,-5.85263 -2.89611,-0.0528 -6.4713,0.28812 -10.65434,1.20049 l -25.66044,120.94923 -0.41946,1.875 41.08601,25.73625 c 22.27531,13.81907 51.45765,6.96908 65.27657,-15.30624 l 86.58525,-139.55681 c 13.81892,-22.27531 6.96908,-51.45775 -15.30622,-65.27634 z"
+         id="path3140"
+         inkscape:export-filename="Logo.png"
+         inkscape:export-xdpi="599.99512"
+         inkscape:export-ydpi="599.99512"
+         sodipodi:nodetypes="scccccccccsccccccssccsccccscccccsccccccccccccccc" />
+    </g>
+  </g>
+</svg>

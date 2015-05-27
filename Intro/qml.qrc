@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>intro.jpg</file>
+        <file>kodira-logo.svg</file>
+        <file>paetrb.ttf</file>
+        <file>roboto-light.ttf</file>
+    </qresource>
+</RCC>
