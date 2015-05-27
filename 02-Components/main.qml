@@ -28,6 +28,13 @@ Window {
                 styleColor: "darkgray"
                 anchors.centerIn: parent
             }
+
+            // NEW //
+            MouseArea {
+                id: mouseArea
+                anchors.fill: parent
+                onClicked: console.log("Button clicked")
+            }
         }
     }
 }
