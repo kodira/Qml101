@@ -7,6 +7,15 @@ Window {
     visible: true
 
     Rectangle {
+        color: "white"
         anchors.fill: parent
+
+
+        Text {
+            text: timeManager.time
+            font.pixelSize: 40
+            anchors.centerIn: parent
+        }
+
     }
 }
