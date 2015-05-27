@@ -2,7 +2,6 @@ import QtQuick 2.4
 
 // Button
 Rectangle {
-    // NEW //
     id: root
     property string text
     signal clicked
@@ -15,7 +14,6 @@ Rectangle {
 
     Text {
         id: buttonText
-        // NEW //
         text: root.text
         color: "violet"
         font.pixelSize: 25
@@ -27,7 +25,6 @@ Rectangle {
     MouseArea {
         id: mouseArea
         anchors.fill: parent
-        // NEW //
         onClicked: root.clicked()
     }
 }
