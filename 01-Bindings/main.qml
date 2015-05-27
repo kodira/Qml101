@@ -35,12 +35,16 @@ Window {
                 }
             }
 
-            // NEW //
             Rectangle {
                 width: parent.height
                 height: width
                 color: textInput.text
                 anchors.right: parent.right
+
+                // NEW //
+                Behavior on color {
+                    ColorAnimation { duration: 2000 }
+                }
             }
         }
 
