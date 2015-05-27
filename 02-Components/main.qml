@@ -13,11 +13,17 @@ Window {
         Button {
             x: 50
             y: 50
+            // NEW //
+            text: "Button Eins"
+            onClicked: console.log("Button Eins")
         }
 
         Button {
             x: 200
             y: 200
+            // NEW //
+            text: "Button Zwei"
+            onClicked: console.log("Button Zwei")
         }
 
     }

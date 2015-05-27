@@ -2,6 +2,11 @@ import QtQuick 2.4
 
 // Button
 Rectangle {
+    // NEW //
+    id: root
+    property string text
+    signal clicked
+
     width: 200
     height: 50
     color: mouseArea.pressed ? "darkgray" : "lightgray"
@@ -10,7 +15,8 @@ Rectangle {
 
     Text {
         id: buttonText
-        text: "Toller Button"
+        // NEW //
+        text: root.text
         color: "violet"
         font.pixelSize: 25
         style: Text.Raised
@@ -21,6 +27,7 @@ Rectangle {
     MouseArea {
         id: mouseArea
         anchors.fill: parent
-        onClicked: console.log("Button clicked")
+        // NEW //
+        onClicked: root.clicked()
     }
 }
