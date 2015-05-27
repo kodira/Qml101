@@ -3,8 +3,9 @@ import QtQuick.Window 2.2
 import QtGraphicalEffects 1.0
 
 Window {
+    id: root
     visible: true
-    visibility: Window.Windowed
+    visibility: Window.FullScreen
     width: 1920
     height: 1080
 
@@ -24,7 +25,10 @@ Window {
         source: "intro.jpg"
         fillMode: Image.PreserveAspectCrop
         focus: true
-        Keys.onEscapePressed: Qt.quit()
+        Keys.onPressed: {
+            if (event.key === Qt.Key_F) root.visibility = (root.visibility == Window.FullScreen ? Window.Windowed : Window.FullScreen)
+            if (event.key === Qt.Key_Escape) Qt.quit()
+        }
         anchors.fill: parent
     }
 
