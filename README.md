@@ -6,3 +6,6 @@ Kleine Einführung in QML aka QtQuick
 * mehr...
 * 
 
+# Quellen
+* https://www.flickr.com/photos/nlann/7637076872
+* 
