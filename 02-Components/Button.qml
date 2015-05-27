@@ -7,7 +7,6 @@ Rectangle {
     color: mouseArea.pressed ? "darkgray" : "lightgray"
     radius: 10
     border.color: "darkgray"
-    anchors.centerIn: parent
 
     Text {
         id: buttonText

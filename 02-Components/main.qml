@@ -10,7 +10,15 @@ Window {
         color: "White"
         anchors.fill: parent
 
-        Button {}
+        Button {
+            x: 50
+            y: 50
+        }
+
+        Button {
+            x: 200
+            y: 200
+        }
 
     }
 }
