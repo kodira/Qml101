@@ -34,6 +34,14 @@ Window {
                     width: 500
                 }
             }
+
+            // NEW //
+            Rectangle {
+                width: parent.height
+                height: width
+                color: textInput.text
+                anchors.right: parent.right
+            }
         }
 
         // Button
