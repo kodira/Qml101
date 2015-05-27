@@ -41,7 +41,6 @@ Window {
                 color: textInput.text
                 anchors.right: parent.right
 
-                // NEW //
                 Behavior on color {
                     ColorAnimation { duration: 2000 }
                 }
@@ -50,7 +49,8 @@ Window {
 
         // Button
         Rectangle {
-            width: 200
+            // NEW //
+            width: buttonText.width + 20
             height: 50
             color: "lightgray"
             radius: 10
@@ -58,6 +58,8 @@ Window {
             anchors.centerIn: parent
 
             Text {
+                // NEW //
+                id: buttonText
                 text: "Toller " + textInput.text
                 color: "violet"
                 font.pixelSize: 25
