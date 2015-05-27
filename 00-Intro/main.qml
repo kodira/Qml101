@@ -57,7 +57,7 @@ Window {
 
     Text {
         id: nameText
-        width: 1000
+        width: 800
         clip: true
         font.family: fontPaete.name
         font.pixelSize: 50
@@ -69,9 +69,9 @@ Window {
 
         Timer {
             id: textAnimTimer
-            property var letters: "Und mein Name ist: Cornelius".split('')
+            property var letters: "Ich bin: Cornelius Hald".split('')
             property int index: 0
-            interval: 100
+            interval: 150
             running: false
             repeat: true
             onTriggered: {
