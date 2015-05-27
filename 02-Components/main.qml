@@ -14,14 +14,9 @@ Window {
         Rectangle {
             width: 200
             height: 50
+
             // NEW //
-            color: {
-                if (mouseArea.pressed) {
-                    return "darkgray"
-                } else {
-                    return "lightgray"
-                }
-            }
+            color: mouseArea.pressed ? "darkgray" : "lightgray"
 
             radius: 10
             border.color: "darkgray"
