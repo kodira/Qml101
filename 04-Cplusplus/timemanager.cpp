@@ -4,7 +4,8 @@
 
 TimeManager::TimeManager(QObject *parent) : QObject(parent)
 {
-    m_timer.setInterval(500);
+    m_interval = 500;
+    m_timer.setInterval(m_interval);
     m_timer.start();
 
     connect(&m_timer, SIGNAL(timeout()), this, SIGNAL(timeChanged()));
@@ -13,4 +14,19 @@ TimeManager::TimeManager(QObject *parent) : QObject(parent)
 QString TimeManager::time()
 {
     return QTime::currentTime().toString("HH:mm:ss");
+}
+
+int TimeManager::interval()
+{
+    return m_interval;
+}
+
+void TimeManager::setInterval(int interval)
+{
+    if (m_interval != interval) {
+        m_interval = interval;
+        // Could also be done with signals & slots
+        m_timer.setInterval(interval);
+        emit intervalChanged();
+    }
 }
