@@ -14,7 +14,15 @@ Window {
         Rectangle {
             width: 200
             height: 50
-            color: "lightgray"
+            // NEW //
+            color: {
+                if (mouseArea.pressed) {
+                    return "darkgray"
+                } else {
+                    return "lightgray"
+                }
+            }
+
             radius: 10
             border.color: "darkgray"
             anchors.centerIn: parent
@@ -29,7 +37,6 @@ Window {
                 anchors.centerIn: parent
             }
 
-            // NEW //
             MouseArea {
                 id: mouseArea
                 anchors.fill: parent
