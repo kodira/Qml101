@@ -8,4 +8,6 @@ Kleine Einführung in QML aka QtQuick
 
 # Quellen
 * https://www.flickr.com/photos/nlann/7637076872
+* http://www.fontsquirrel.com/fonts/paete-round
+* http://www.fontsquirrel.com/fonts/roboto
 * 
