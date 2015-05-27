@@ -13,7 +13,6 @@ Window {
         Button {
             x: 50
             y: 50
-            // NEW //
             text: "Button Eins"
             onClicked: console.log("Button Eins")
         }
@@ -21,9 +20,17 @@ Window {
         Button {
             x: 200
             y: 200
+            text: "Button Laden"
             // NEW //
-            text: "Button Zwei"
-            onClicked: console.log("Button Zwei")
+            onClicked: loader.source = "Button.qml"
+        }
+
+        // NEW //
+        Loader {
+            id: loader
+            x: 500
+            y: 200
+            onLoaded: item.text = "Frischer Button"
         }
 
     }
